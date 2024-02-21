@@ -1,0 +1,7 @@
+langchain
+langchainhub
+langchain-openai
+openai
+google-search-results
+python-dotenv
+pydantic == 1.10.13
