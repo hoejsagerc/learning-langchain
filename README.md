@@ -153,3 +153,40 @@ api call. It used the LLM to perform actions such as an api call. This could be 
 have a function with a docstring explaining what something might do. The read the docstring
 and used this function for collecting the data it thinks are relevant to solve that task.
 
+
+## Retrieval Augmentation
+
+If you have a large amount of data such as text files. You can split up the data into multiple chunks
+and then connect the chunks together in a logical way.
+
+## Embeddings
+
+An embedding is a vector space meaning that a model can be converted into a text space.
+
+You can then have an Embedding Model. This model is designed to take multiple objects and then
+convert them into objects as vectors.
+
+The model usually works as a black box, meaning we dont have any insights into how they work.
+
+when sentences are converted into embeddings they will be very close to each other if they look
+much like each other.
+
+Example:
+
+```plaintext
+Sentence 1:
+- I want to order an extra large coffee
+
+Sentence 2:
+- I'll have a tall coffee
+
+Sentence 3:
+- Quiero pedir cafe extra grande
+```
+
+These three sentences will be located very close to each other in the vector space, since the
+meaning of the sentences is very much a like.
+
+Now the language does not change how close they will be.
+
+You can calculate how close two embeddings will be to eachother.

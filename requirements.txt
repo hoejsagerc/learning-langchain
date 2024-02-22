@@ -1,7 +1,13 @@
-langchain
+langchain==0.1.6
+langchain-community==0.0.19
+langchain-core==0.1.23
+langchain-pinecone
 langchainhub
 langchain-openai
 openai
 google-search-results
 python-dotenv
-pydantic == 1.10.13
+pydantic==1.10.13
+pinecone-client
+pypdf
+faiss-cpu
